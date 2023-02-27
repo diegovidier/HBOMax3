@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin-top: 15px;
+    padding: 0px;
+    font-family: 'Inter';
+    background-image: url(assets/images/bgd.png);
+    background-color: #313030;
+    color:  white;
+}
+header{
+    margin-bottom: 50px;
+}
+
+nav{
+    display: flex;   
+          
+}
+#iconList{
+    margin-left: 30px;
+    margin-right: 50px;
+    width: 20px;
+
+}
+#search{
+    margin-left:0px;
+    width: 20px;
+    margin-right: 540px;
+}
+#hboLogo {
+    align-self: center;
+    margin-right: 400px;
+}
+a {
+    margin-left: 50px;
+    font-size: 20px;
+}
+.linkHeader{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Formulário*/
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+h3{
+    font-weight: 400;
+    text-align: center;    
+}
+
+label{
+    margin-right: 270px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input{
+    width: 320px;
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #7F7F7FBF;
+    align-items: center;
+    font-size: 20px;
+    
+}
+    input::placeholder{
+        padding: 7px 0px 7px 35px;
+        margin-left: 35px;
+        color: white;
+        font-size: 20px;
+        
+    }
+
+input[type="submit"]{
+    margin-top:15px;
+    width: 8%;
+    height: 28px;
+    background-image: linear-gradient(#A18CD1, #FBC2EB);
+    font-size: 18px;
+}
+button{
+    margin-top:10px;
+    width: 15%;
+    height: 28px;
+    background-image: linear-gradient(#A18CD1, #FBC2EB);
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+}
